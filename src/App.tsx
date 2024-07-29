@@ -33,7 +33,7 @@ function App() {
 
   return (
     <>
-      <div className="grid grid-flow-col gap-5 text-center auto-cols-max justify-center items-center text-2xl text-red-600 font-extrabold w-full h-full" id="background">
+      <div className="grid grid-flow-col gap-5  text-center auto-cols-max justify-center items-center text-2xl text-blue-900 font-extrabold w-full h-full" id="background">
         <div className="flex flex-col">
           <span className="countdown font-mono text-5xl">
             <span style={{ '--value': timeLeft.days } as React.CSSProperties}></span>
